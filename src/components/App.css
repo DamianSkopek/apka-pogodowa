@@ -1,0 +1,19 @@
+.App input, .App button{
+    margin: 20px;
+    padding: 10px 20px;
+    border: 2px solid rgb(2, 14, 68);
+    background: rgb(222, 222, 255);
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.App input:focus{
+    background: rgb(208, 252, 208);
+    border: 2px solid black;
+}
+.App button{cursor: pointer;}
+.App button:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+   
+}

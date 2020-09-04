@@ -1,0 +1,13 @@
+.result {
+    margin: 0 50px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.result h3, .result h4{
+    font-weight: normal;
+}
+
+.result em {
+    font-weight: bold;
+}
