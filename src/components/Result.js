@@ -2,7 +2,7 @@ import React from 'react'
 import './Result.css'
 
 const Result = props => {
-    //destrukturyzacja
+
     const {err, city, date, sunrise, sunset, temp, wind, pressure} = props.weather
     
     let content = null
