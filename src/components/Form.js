@@ -1,17 +1,18 @@
 import React from 'react'
 
-const Form = (props) => {
+const Form = props => {
+
+
+
     return (
-        <form onSubmit={props.submit} >
+        <form  >
             <input 
             type="text" 
             value={props.value}
             placeholder="Wpisz miasto"
-            // na zmianę aktywujemy props.change
             onChange={props.change}
-
             />
-            <button>Wyszukaj miasto</button>
+            
         </form>
     )
 }
